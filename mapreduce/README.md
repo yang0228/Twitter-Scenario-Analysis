@@ -1,0 +1,1 @@
+Store this view as "_design/analysis" on CouchDB

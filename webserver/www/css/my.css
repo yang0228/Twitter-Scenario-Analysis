@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+.subsection {
+	visibility:hidden;
+	display:none
+}
+
+.main_chart_view{
+	width:900px;
+	height:400px
+}
+
+.gmap{
+	width:900px;
+	height:600px;
+}
+
+.sub_chart_view{
+	width:900px;
+	height:500px
+}
+.color1{
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+.color2{
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+}
+.color3{
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}

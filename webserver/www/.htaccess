@@ -1,0 +1,10 @@
+#if not declared, cause $_GET param missing
+Options -MultiViews 
+
+
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} ^cloud.lo [NC]
+#RewriteCond %{HTTP_HOST} !^$
+RewriteRule ^scenario/(.*)$ scenario.php?s=$1 [L]
+RewriteRule ^tweets/username/(.*)$ search.php?q=$1 [L]
